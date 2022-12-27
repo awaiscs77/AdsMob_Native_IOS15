@@ -1,0 +1,784 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		35EAB5F7D516025E02C8C5EF /* Pods_NativeAds_NativeAdsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7477CF62491A2B63581776C5 /* Pods_NativeAds_NativeAdsUITests.framework */; };
+		4B5ADE1B315A28BAAE232CD1 /* Pods_NativeAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39B98F6211E0DF1FB6EC71D7 /* Pods_NativeAds.framework */; };
+		B59F8C0D295B8D2E0076B905 /* GADNativeAdView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B59F8C0F295B8D2E0076B905 /* GADNativeAdView.xib */; };
+		B5F65868295A42BA003F44D1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F65867295A42BA003F44D1 /* AppDelegate.swift */; };
+		B5F6586A295A42BA003F44D1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F65869295A42BA003F44D1 /* SceneDelegate.swift */; };
+		B5F6586C295A42BA003F44D1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F6586B295A42BA003F44D1 /* ViewController.swift */; };
+		B5F6586F295A42BA003F44D1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5F6586D295A42BA003F44D1 /* Main.storyboard */; };
+		B5F65872295A42BA003F44D1 /* NativeAds.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B5F65870295A42BA003F44D1 /* NativeAds.xcdatamodeld */; };
+		B5F65874295A42BC003F44D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5F65873295A42BC003F44D1 /* Assets.xcassets */; };
+		B5F65877295A42BC003F44D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5F65875295A42BC003F44D1 /* LaunchScreen.storyboard */; };
+		B5F65882295A42BD003F44D1 /* NativeAdsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F65881295A42BD003F44D1 /* NativeAdsTests.swift */; };
+		B5F6588C295A42BD003F44D1 /* NativeAdsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F6588B295A42BD003F44D1 /* NativeAdsUITests.swift */; };
+		B5F6588E295A42BD003F44D1 /* NativeAdsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F6588D295A42BD003F44D1 /* NativeAdsUITestsLaunchTests.swift */; };
+		FDA95F5B5EBF86B5DD5BD9C3 /* Pods_NativeAdsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B50F8B42F5648A2A175050F8 /* Pods_NativeAdsTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B5F6587E295A42BD003F44D1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B5F6585C295A42BA003F44D1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B5F65863295A42BA003F44D1;
+			remoteInfo = NativeAds;
+		};
+		B5F65888295A42BD003F44D1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B5F6585C295A42BA003F44D1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B5F65863295A42BA003F44D1;
+			remoteInfo = NativeAds;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		39B98F6211E0DF1FB6EC71D7 /* Pods_NativeAds.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NativeAds.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C8168FE55C31348B43D3871 /* Pods-NativeAds-NativeAdsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NativeAds-NativeAdsUITests.release.xcconfig"; path = "Target Support Files/Pods-NativeAds-NativeAdsUITests/Pods-NativeAds-NativeAdsUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5CE6D4BD211793172791845B /* Pods-NativeAds-NativeAdsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NativeAds-NativeAdsUITests.debug.xcconfig"; path = "Target Support Files/Pods-NativeAds-NativeAdsUITests/Pods-NativeAds-NativeAdsUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		6AE16FE428C2448893E33B47 /* Pods-NativeAdsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NativeAdsTests.debug.xcconfig"; path = "Target Support Files/Pods-NativeAdsTests/Pods-NativeAdsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7477CF62491A2B63581776C5 /* Pods_NativeAds_NativeAdsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NativeAds_NativeAdsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F3821619EC89D2A5D5EB127 /* Pods-NativeAdsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NativeAdsTests.release.xcconfig"; path = "Target Support Files/Pods-NativeAdsTests/Pods-NativeAdsTests.release.xcconfig"; sourceTree = "<group>"; };
+		93154C75CF912C2359F4878A /* Pods-NativeAds.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NativeAds.release.xcconfig"; path = "Target Support Files/Pods-NativeAds/Pods-NativeAds.release.xcconfig"; sourceTree = "<group>"; };
+		B50F8B42F5648A2A175050F8 /* Pods_NativeAdsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NativeAdsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B59F8C0E295B8D2E0076B905 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/GADNativeAdView.xib; sourceTree = "<group>"; };
+		B5F65864295A42BA003F44D1 /* NativeAds.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NativeAds.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5F65867295A42BA003F44D1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B5F65869295A42BA003F44D1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B5F6586B295A42BA003F44D1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B5F6586E295A42BA003F44D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B5F65871295A42BA003F44D1 /* NativeAds.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NativeAds.xcdatamodel; sourceTree = "<group>"; };
+		B5F65873295A42BC003F44D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B5F65876295A42BC003F44D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B5F65878295A42BC003F44D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5F6587D295A42BD003F44D1 /* NativeAdsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NativeAdsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5F65881295A42BD003F44D1 /* NativeAdsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NativeAdsTests.swift; sourceTree = "<group>"; };
+		B5F65887295A42BD003F44D1 /* NativeAdsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NativeAdsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5F6588B295A42BD003F44D1 /* NativeAdsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NativeAdsUITests.swift; sourceTree = "<group>"; };
+		B5F6588D295A42BD003F44D1 /* NativeAdsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NativeAdsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C40C835BC32AE6F5087684FF /* Pods-NativeAds.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NativeAds.debug.xcconfig"; path = "Target Support Files/Pods-NativeAds/Pods-NativeAds.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B5F65861295A42BA003F44D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B5ADE1B315A28BAAE232CD1 /* Pods_NativeAds.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5F6587A295A42BD003F44D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDA95F5B5EBF86B5DD5BD9C3 /* Pods_NativeAdsTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5F65884295A42BD003F44D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35EAB5F7D516025E02C8C5EF /* Pods_NativeAds_NativeAdsUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9530CC4FE457C03FBF1690A6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C40C835BC32AE6F5087684FF /* Pods-NativeAds.debug.xcconfig */,
+				93154C75CF912C2359F4878A /* Pods-NativeAds.release.xcconfig */,
+				5CE6D4BD211793172791845B /* Pods-NativeAds-NativeAdsUITests.debug.xcconfig */,
+				3C8168FE55C31348B43D3871 /* Pods-NativeAds-NativeAdsUITests.release.xcconfig */,
+				6AE16FE428C2448893E33B47 /* Pods-NativeAdsTests.debug.xcconfig */,
+				7F3821619EC89D2A5D5EB127 /* Pods-NativeAdsTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B5F6585B295A42BA003F44D1 = {
+			isa = PBXGroup;
+			children = (
+				B5F65866295A42BA003F44D1 /* NativeAds */,
+				B5F65880295A42BD003F44D1 /* NativeAdsTests */,
+				B5F6588A295A42BD003F44D1 /* NativeAdsUITests */,
+				B5F65865295A42BA003F44D1 /* Products */,
+				9530CC4FE457C03FBF1690A6 /* Pods */,
+				F191F2AF2A9F63804B780FBE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B5F65865295A42BA003F44D1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B5F65864295A42BA003F44D1 /* NativeAds.app */,
+				B5F6587D295A42BD003F44D1 /* NativeAdsTests.xctest */,
+				B5F65887295A42BD003F44D1 /* NativeAdsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B5F65866295A42BA003F44D1 /* NativeAds */ = {
+			isa = PBXGroup;
+			children = (
+				B5F65867295A42BA003F44D1 /* AppDelegate.swift */,
+				B59F8C0F295B8D2E0076B905 /* GADNativeAdView.xib */,
+				B5F65869295A42BA003F44D1 /* SceneDelegate.swift */,
+				B5F6586B295A42BA003F44D1 /* ViewController.swift */,
+				B5F6586D295A42BA003F44D1 /* Main.storyboard */,
+				B5F65873295A42BC003F44D1 /* Assets.xcassets */,
+				B5F65875295A42BC003F44D1 /* LaunchScreen.storyboard */,
+				B5F65878295A42BC003F44D1 /* Info.plist */,
+				B5F65870295A42BA003F44D1 /* NativeAds.xcdatamodeld */,
+			);
+			path = NativeAds;
+			sourceTree = "<group>";
+		};
+		B5F65880295A42BD003F44D1 /* NativeAdsTests */ = {
+			isa = PBXGroup;
+			children = (
+				B5F65881295A42BD003F44D1 /* NativeAdsTests.swift */,
+			);
+			path = NativeAdsTests;
+			sourceTree = "<group>";
+		};
+		B5F6588A295A42BD003F44D1 /* NativeAdsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B5F6588B295A42BD003F44D1 /* NativeAdsUITests.swift */,
+				B5F6588D295A42BD003F44D1 /* NativeAdsUITestsLaunchTests.swift */,
+			);
+			path = NativeAdsUITests;
+			sourceTree = "<group>";
+		};
+		F191F2AF2A9F63804B780FBE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				39B98F6211E0DF1FB6EC71D7 /* Pods_NativeAds.framework */,
+				7477CF62491A2B63581776C5 /* Pods_NativeAds_NativeAdsUITests.framework */,
+				B50F8B42F5648A2A175050F8 /* Pods_NativeAdsTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B5F65863295A42BA003F44D1 /* NativeAds */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5F65891295A42BD003F44D1 /* Build configuration list for PBXNativeTarget "NativeAds" */;
+			buildPhases = (
+				D2D8AA878565F4C73841A27E /* [CP] Check Pods Manifest.lock */,
+				B5F65860295A42BA003F44D1 /* Sources */,
+				B5F65861295A42BA003F44D1 /* Frameworks */,
+				B5F65862295A42BA003F44D1 /* Resources */,
+				AFC7E76A8E958AE94608E4F4 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NativeAds;
+			productName = NativeAds;
+			productReference = B5F65864295A42BA003F44D1 /* NativeAds.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B5F6587C295A42BD003F44D1 /* NativeAdsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5F65894295A42BD003F44D1 /* Build configuration list for PBXNativeTarget "NativeAdsTests" */;
+			buildPhases = (
+				A7512AC886753582B1CEAA64 /* [CP] Check Pods Manifest.lock */,
+				B5F65879295A42BD003F44D1 /* Sources */,
+				B5F6587A295A42BD003F44D1 /* Frameworks */,
+				B5F6587B295A42BD003F44D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B5F6587F295A42BD003F44D1 /* PBXTargetDependency */,
+			);
+			name = NativeAdsTests;
+			productName = NativeAdsTests;
+			productReference = B5F6587D295A42BD003F44D1 /* NativeAdsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B5F65886295A42BD003F44D1 /* NativeAdsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5F65897295A42BD003F44D1 /* Build configuration list for PBXNativeTarget "NativeAdsUITests" */;
+			buildPhases = (
+				8906EF15BC1557D0B87D3101 /* [CP] Check Pods Manifest.lock */,
+				B5F65883295A42BD003F44D1 /* Sources */,
+				B5F65884295A42BD003F44D1 /* Frameworks */,
+				B5F65885295A42BD003F44D1 /* Resources */,
+				697877C99DDCD4397BA94647 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B5F65889295A42BD003F44D1 /* PBXTargetDependency */,
+			);
+			name = NativeAdsUITests;
+			productName = NativeAdsUITests;
+			productReference = B5F65887295A42BD003F44D1 /* NativeAdsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B5F6585C295A42BA003F44D1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					B5F65863295A42BA003F44D1 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					B5F6587C295A42BD003F44D1 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = B5F65863295A42BA003F44D1;
+					};
+					B5F65886295A42BD003F44D1 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = B5F65863295A42BA003F44D1;
+					};
+				};
+			};
+			buildConfigurationList = B5F6585F295A42BA003F44D1 /* Build configuration list for PBXProject "NativeAds" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B5F6585B295A42BA003F44D1;
+			productRefGroup = B5F65865295A42BA003F44D1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B5F65863295A42BA003F44D1 /* NativeAds */,
+				B5F6587C295A42BD003F44D1 /* NativeAdsTests */,
+				B5F65886295A42BD003F44D1 /* NativeAdsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B5F65862295A42BA003F44D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5F65877295A42BC003F44D1 /* LaunchScreen.storyboard in Resources */,
+				B5F65874295A42BC003F44D1 /* Assets.xcassets in Resources */,
+				B5F6586F295A42BA003F44D1 /* Main.storyboard in Resources */,
+				B59F8C0D295B8D2E0076B905 /* GADNativeAdView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5F6587B295A42BD003F44D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5F65885295A42BD003F44D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		697877C99DDCD4397BA94647 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NativeAds-NativeAdsUITests/Pods-NativeAds-NativeAdsUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NativeAds-NativeAdsUITests/Pods-NativeAds-NativeAdsUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NativeAds-NativeAdsUITests/Pods-NativeAds-NativeAdsUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8906EF15BC1557D0B87D3101 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NativeAds-NativeAdsUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A7512AC886753582B1CEAA64 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NativeAdsTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AFC7E76A8E958AE94608E4F4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NativeAds/Pods-NativeAds-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NativeAds/Pods-NativeAds-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NativeAds/Pods-NativeAds-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D2D8AA878565F4C73841A27E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NativeAds-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B5F65860295A42BA003F44D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5F6586C295A42BA003F44D1 /* ViewController.swift in Sources */,
+				B5F65872295A42BA003F44D1 /* NativeAds.xcdatamodeld in Sources */,
+				B5F65868295A42BA003F44D1 /* AppDelegate.swift in Sources */,
+				B5F6586A295A42BA003F44D1 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5F65879295A42BD003F44D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5F65882295A42BD003F44D1 /* NativeAdsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5F65883295A42BD003F44D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5F6588E295A42BD003F44D1 /* NativeAdsUITestsLaunchTests.swift in Sources */,
+				B5F6588C295A42BD003F44D1 /* NativeAdsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B5F6587F295A42BD003F44D1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B5F65863295A42BA003F44D1 /* NativeAds */;
+			targetProxy = B5F6587E295A42BD003F44D1 /* PBXContainerItemProxy */;
+		};
+		B5F65889295A42BD003F44D1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B5F65863295A42BA003F44D1 /* NativeAds */;
+			targetProxy = B5F65888295A42BD003F44D1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B59F8C0F295B8D2E0076B905 /* GADNativeAdView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B59F8C0E295B8D2E0076B905 /* Base */,
+			);
+			name = GADNativeAdView.xib;
+			sourceTree = "<group>";
+		};
+		B5F6586D295A42BA003F44D1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B5F6586E295A42BA003F44D1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B5F65875295A42BC003F44D1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B5F65876295A42BC003F44D1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B5F6588F295A42BD003F44D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B5F65890295A42BD003F44D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B5F65892295A42BD003F44D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C40C835BC32AE6F5087684FF /* Pods-NativeAds.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NativeAds/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.awais.NativeAds;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B5F65893295A42BD003F44D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 93154C75CF912C2359F4878A /* Pods-NativeAds.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NativeAds/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.awais.NativeAds;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B5F65895295A42BD003F44D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6AE16FE428C2448893E33B47 /* Pods-NativeAdsTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.awais.NativeAdsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NativeAds.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NativeAds";
+			};
+			name = Debug;
+		};
+		B5F65896295A42BD003F44D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F3821619EC89D2A5D5EB127 /* Pods-NativeAdsTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.awais.NativeAdsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NativeAds.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NativeAds";
+			};
+			name = Release;
+		};
+		B5F65898295A42BD003F44D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5CE6D4BD211793172791845B /* Pods-NativeAds-NativeAdsUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.awais.NativeAdsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NativeAds;
+			};
+			name = Debug;
+		};
+		B5F65899295A42BD003F44D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C8168FE55C31348B43D3871 /* Pods-NativeAds-NativeAdsUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.awais.NativeAdsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NativeAds;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B5F6585F295A42BA003F44D1 /* Build configuration list for PBXProject "NativeAds" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5F6588F295A42BD003F44D1 /* Debug */,
+				B5F65890295A42BD003F44D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5F65891295A42BD003F44D1 /* Build configuration list for PBXNativeTarget "NativeAds" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5F65892295A42BD003F44D1 /* Debug */,
+				B5F65893295A42BD003F44D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5F65894295A42BD003F44D1 /* Build configuration list for PBXNativeTarget "NativeAdsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5F65895295A42BD003F44D1 /* Debug */,
+				B5F65896295A42BD003F44D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5F65897295A42BD003F44D1 /* Build configuration list for PBXNativeTarget "NativeAdsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5F65898295A42BD003F44D1 /* Debug */,
+				B5F65899295A42BD003F44D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B5F65870295A42BA003F44D1 /* NativeAds.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B5F65871295A42BA003F44D1 /* NativeAds.xcdatamodel */,
+			);
+			currentVersion = B5F65871295A42BA003F44D1 /* NativeAds.xcdatamodel */;
+			path = NativeAds.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B5F6585C295A42BA003F44D1 /* Project object */;
+}
